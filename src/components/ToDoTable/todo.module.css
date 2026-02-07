@@ -111,13 +111,16 @@ label {
 
 .toDoListTaskContent {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     align-items: center;
+    width: inherit;
 }
 
 .toDoListTaskTitle {
     font-size: 25px;
     color: black;
+    max-width: 100%;
 }
 
 .toDoListTaskTitleDone {
