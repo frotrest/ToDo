@@ -1,0 +1,172 @@
+label {
+    display: inline;
+}
+
+.toDoSection {
+    padding-top: 100px;
+}
+
+.toDoContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.formBlock {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formBlockInput {
+    padding: 10px 100px 10px 10px;
+    outline: none;
+    border: 2px solid coral;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.toDoContentTitle {
+    color: black;
+    text-transform: uppercase;
+}
+
+.toDoBlockBtn {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    background-color: rgb(243, 71, 9);
+    border: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-weight: 900;
+}
+
+.toDoBlockBtn:hover {
+    color: rgb(178, 211, 240);
+}
+
+.inputFilter {
+    padding: 10px 100px 10px 10px;
+    outline: none;
+    border: 2px solid coral;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.formAdd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.infoBlock {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.infoBlockTitle {
+    background-color: coral;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    width: 230px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.toDoList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+}
+
+.toDoListTask {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: white;
+    padding: 25px 35px;
+    width: 320px;
+    height: 320px;
+    border-radius: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.toDoListTaskContent {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.toDoListTaskTitle {
+    font-size: 25px;
+    color: black;
+}
+
+.toDoListTaskTitleDone {
+    color: rgb(91, 216, 91);
+    text-decoration: line-through;
+}
+
+.toDoListTaskInput {
+    width: 30px;
+    height: 30px;
+    appearance: none;
+    border: 2px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+}
+
+.toDoListTaskInput:checked {
+    background-color: coral;
+    border: none;
+}
+
+.toDoListTaskInput:checked::after {
+    content: '';
+    position: absolute;
+    left: 11px;
+    top: 6px;
+    width: 6px;
+    height: 12px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    transform: rotate(45deg);
+}
+
+.toDoListTaskBtn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(243, 71, 9);
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-weight: 900;
+}
+
+.toDoListTaskBtn:hover {
+    color: rgb(178, 211, 240);
+}
