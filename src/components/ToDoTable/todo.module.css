@@ -122,6 +122,7 @@ label {
     font-size: 25px;
     color: black;
     max-width: 100%;
+    overflow-wrap: break-word;
 }
 
 .toDoListTaskTitleDone {
